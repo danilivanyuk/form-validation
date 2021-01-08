@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Authorisation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="register-container">
+      <div class="info">
+      <p class="title">Регистрация</p>
+         
+          <form class="info-input" action="">
+            <div class="left-side">
+              <div class="name-container input-container">
+                <label for="name-label" class="info-label">Имя</label>
+                <input class="name-register" type="text">
+              </div>
+              <div class="email-container input-container">
+                <label for="email-label" class="info-label">Адрес электронной почты</label>
+                <input class="email-register" type="email">
+              </div>
+            </div>
+            
+            <div class="right-side">
+              <div class="password-container input-container">
+                <label class="password-label info-label">Пароль</label>
+                <input class="password-register" autocomplete="none" type="password">
+              </div>
+              <div class="repassword-container input-container">
+                <label class="password-label info-label" for="email">Повторите пароль</label>
+                <input class="repassword-register" autocomplete="none" type="password">
+              </div>
+            </div>
+            
+            
+          </form>
+          
+        <button class="login-btn">Регистрация</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
